@@ -1,0 +1,42 @@
+
+<div class="jumbotron">
+    <h1>Wish for a Burger, then eat it!</h1>
+
+</div>
+<div class="row">
+<section class="row-left">
+    <h2>Burgers yet to be devoured:</h2>
+    <ul>
+        {{#each burgers}}
+        {{#unless devoured}}
+        {{> burgers/burger-block devour=true}}
+        {{/unless}}
+        {{/each}}
+    </ul>
+</section>
+<section class="row-right">
+    <h2>Burgers devoured:</h2>
+
+    <ul>
+        {{#each burgers}}
+        {{#if devoured}}
+        {{> burgers/burger-block devour=false}}
+        {{/if}}
+        {{/each}}
+    </ul>
+</section>
+</div>
+<div class="add-row">
+<section class="add">
+    <h2>Add a Burger</h2>
+    <form class="create-form">
+
+        <section class="form-group">
+            <label for="bur">Burger Name:</label>
+            <input type="text" id="bur" name="name">
+        </section>
+
+        <button type="submit" id="submit">Order Burger</button>
+    </form>
+    </section>
+    </div>
