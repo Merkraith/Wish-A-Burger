@@ -1,79 +1,110 @@
 
 
- * {
-   box-sizing: border-box;
- }
+* {
+  background-color: #364958;
+  /* text-align: center; */
+}
+/* header */
+h1 {
+  font-family: "IBM Plex Serif", serif;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #f97068;
+  font-size: 72pt;
+  /* font-style: italic; */
 
- h1 {
-   font-size: 150px;
- }
-
- .row-left,
- .row-right {
-   width: 50%;
-   float: left;
- }
-
- .row::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
- li {
-    padding: 5px;
-    margin: 5px;
-    background: #93d1ee;
-  }
-  
-  .label {
-    font-weight: bold;
-  }
-  
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-  
-  }
-
-  #bur {
-    background-color: #93d1ee;
-  }
-  
-
-body {
-  background-color: rgb(51, 147, 172);
-  margin-top: 50px;
-  margin-left: 200px;
-  margin-bottom: 200px;
-  margin-right: 200px;
+/* sub heading  */
+h2 {
+  font-family: "IBM Plex Serif", serif;
+  color: #80ced7;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 33pt;
+  /* font-family: 'IBM Plex Serif', serif; */
+  /* font-style: italic; */
 }
 
-.jumbotron {
+ul {
+  margin-left: 50px;
+  color: #d1d646;
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+li {
+  margin-left: 50px;
+}
+
+#ca {
+  margin-left: 50px;
+  background-color: #c7d6d5;
+  border-radius: 4px;
+  padding: 10px;
+  width: 300px;
+  font-size: 14pt;
+}
+
+
+.change-eat {
+  font-size: 14pt;
+  padding: 5pt;
+  margin: 10pt;
+  background-color: #e8db7d;
+  font-family: "IBM Plex Serif", serif;
+  border-radius: 8px;
+}
+
+/* delete burger button  */
+.delete-burger {
+  font-size: 12pt;
+  padding: 7pt;
+  margin: 10pt;
+  margin-left: 20pt;
+  background-color: #fa8f89;
+  font-family: "IBM Plex Serif", serif;
+  border-radius: 8px;
+  color: #890c06;
+  font-style: italic;
+}
+
+/* form with radial choices and input */
+.form-group {
+  margin-left: 50px;
+  color: #d1d646;
+  padding: 15px;
+  font-size: 18pt;
+  font-family: "IBM Plex Serif", serif;
+  margin-bottom: 7px;
+}
+
+/* Burger name: text  */
+#burger-name {
+  font-size: 24pt;
+}
+
+/* add burger button */
+#burger-btn {
+  margin-left: 70px;
+  margin-top: 7px;
+  margin-bottom: 50px;
+  color: #364958;
+  font-size: 14pt;
+  font-family: "IBM Plex Serif", serif;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #80ced7;
+}
+
+/* footer  */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color:   #d1d646;
   text-align: center;
-  padding-bottom: 0px;
-  background-color: rgb(246, 135, 62);
 }
-
-.add-row {
-  text-align: center;
-}
-
-.add {
-  display: inline-block;
-}
-
-.change-devour {
-  background-color: rgb(23, 144, 192);
-  float: right;
-}
-
-.delete {
-  background-color: green;
-  float: right;
-}
-
-#submit {
-  background-color: rgb(246, 135, 62);
-}
-
