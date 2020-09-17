@@ -1,50 +1,57 @@
 
 
 * {
-  background-color: #364958;
+  background-color: #32442d;
   /* text-align: center; */
 }
 /* header */
 h1 {
-  font-family: "IBM Plex Serif", serif;
-  margin-left: 50px;
+  font-family: 'Ranchers', cursive;  margin-left: 50px;
   margin-top: 25px;
   margin-bottom: 20px;
-  color: #f97068;
-  font-size: 72pt;
-  /* font-style: italic; */
-
+  color: #10b826;
+  font-size: 48pt;
+  text-align: center;
 }
 
 /* sub heading  */
 h2 {
-  font-family: "IBM Plex Serif", serif;
-  color: #80ced7;
+  font-family: 'Ranchers', cursive;  color: #13b8ca;
   margin-left: 50px;
   margin-top: 20px;
   font-size: 33pt;
-  /* font-family: 'IBM Plex Serif', serif; */
-  /* font-style: italic; */
-}
+  background-color: #32442d;
+  text-align: center;
 
+
+}
+body {
+  background-color: #32442d;
+}
 ul {
   margin-left: 50px;
   color: #d1d646;
-  list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margins */
+  list-style-type: none;
+  padding: 0; 
+  margin: 0; 
+  text-align: center;
+
 }
 
 li {
   margin-left: 50px;
+  text-align: center;
+
 }
 
 #ca {
   margin-left: 50px;
-  background-color: #c7d6d5;
+  background-color: lightgreen;
   border-radius: 4px;
   padding: 10px;
   width: 300px;
+
+  text-align: center;
   font-size: 14pt;
 }
 
@@ -53,9 +60,9 @@ li {
   font-size: 14pt;
   padding: 5pt;
   margin: 10pt;
-  background-color: #e8db7d;
-  font-family: "IBM Plex Serif", serif;
-  border-radius: 8px;
+  background-color: green;
+  text-align: center;
+  font-family: 'Ranchers', cursive;  border-radius: 8px;
 }
 
 /* delete burger button  */
@@ -64,47 +71,45 @@ li {
   padding: 7pt;
   margin: 10pt;
   margin-left: 20pt;
-  background-color: #fa8f89;
-  font-family: "IBM Plex Serif", serif;
-  border-radius: 8px;
-  color: #890c06;
+  color: black;
+  background-color: red;
   font-style: italic;
+  text-align: center;
+
 }
 
 /* form with radial choices and input */
 .form-group {
   margin-left: 50px;
-  color: #d1d646;
+  color: #27830b;
   padding: 15px;
+  text-align: center;
+
   font-size: 18pt;
-  font-family: "IBM Plex Serif", serif;
-  margin-bottom: 7px;
+  font-family: 'Ranchers', cursive;  margin-bottom: 7px;
 }
 
 /* Burger name: text  */
 #burger-name {
   font-size: 24pt;
+  text-align: center;
+
 }
 
 /* add burger button */
 #burger-btn {
-  margin-left: 70px;
-  margin-top: 7px;
+  align-self: center;
+  margin-left: 50px;
+  margin-top: 10px;
   margin-bottom: 50px;
-  color: #364958;
-  font-size: 14pt;
-  font-family: "IBM Plex Serif", serif;
-  padding: 10px;
+  color: black;
+  font-size: 18pt;
+  font-family: 'Ranchers', cursive;  padding: 10px;
   border-radius: 8px;
   background-color: #80ced7;
 }
 
-/* footer  */
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color:   #d1d646;
-  text-align: center;
+.form-group {
+  align-content: center;
+
 }

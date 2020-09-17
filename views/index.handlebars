@@ -1,26 +1,26 @@
-<h1>Wish a Burger, Eat a Burger!</h1>
+<h1>Devour the Burgers!</h1>
 
-<h2>Burgers to Eat</h2>
-
-<ul>
-    {{#each burgers}}
-    {{#unless devoured}}
-        {{> burgers/burger-block devour=true}}
-     {{/unless}}
-     {{/each}}
-</ul>
-
-<h2>Devoured</h2>
+<h2>Burgers to Devour</h2>
 
 <ul>
-    {{#each burgers}}
-        {{#if devoured}}
-        {{> burgers/burger-block devour=false}}
-         {{/if}}
-     {{/each}}
+  {{#each burgers}}
+  {{#unless devoured}}
+  {{> burgers/burger-block devour=true}}
+  {{/unless}}
+  {{/each}}
 </ul>
 
-<h2> Add a Burger to your Wish List</h2>
+<h2>Burgers Devoured</h2>
+
+<ul>
+  {{#each burgers}}
+  {{#if devoured}}
+  {{> burgers/burger-block devour=false}}
+  {{/if}}
+  {{/each}}
+</ul>
+
+<h2> Add a Burger to Devour</h2>
 
 <form class="create-form">
 
@@ -32,8 +32,9 @@
   <div class="form-group">
     <label for="burgers" class="select-craving">Select Craving or Devoured</label><br>
     <input type="radio" name="devoured" value="1" class="select-craving" checked> Devoured! <br>
-    <input type="radio" name="devoured" value="0" class="select-craving" > Craving!
+    <input type="radio" name="devoured" value="0" class="select-craving"> Craving!
+    <div>
+      <button type="submit" id="burger-btn">Add Burger</button>
+    </div>
   </div>
-
-  <button type="submit" id="burger-btn">Add Burger</button>
 </form>
