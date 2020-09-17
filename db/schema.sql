@@ -1,13 +1,10 @@
-CREATE DATABASE burgertime_db;
-USE burgertime_db;
+CREATE DATABASE burgers_db;
+USE burgers_db;
 
 CREATE TABLE burgers
 (
-    id int NOT NULL
-    AUTO_INCREMENT,
-	name varchar
-    (255) NOT NULL,
-	devoured BOOLEAN DEFAULT false,
-	PRIMARY KEY
-    (id)
+    id int NOT NULL AUTO_INCREMENT,
+    burger_name VARCHAR(30),
+    devoured BOOLEAN DEFAULT false,
+    PRIMARY KEY (id)
 );

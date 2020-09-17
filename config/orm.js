@@ -90,4 +90,4 @@ let orm = {
   }
 };
 
-npmodule.exports = orm;
+module.exports = orm;
