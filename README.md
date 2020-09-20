@@ -16,7 +16,7 @@ This is an web app built in the MVC Design pattern, using node, Express,  Handle
 
 ## Deployed Link
 
-https://dashboard.heroku.com/apps/damp-coast-26335
+https://damp-coast-26335.herokuapp.com/
 
 ## Screenshots
  
